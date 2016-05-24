@@ -289,3 +289,4 @@ l'apparence de cet objet.</FONT></P>
 	Biblioth&eacute;caire-Documentaliste		IESSID Ixelles</P>
 </DIV>
 </BODY>
+</HTML>
