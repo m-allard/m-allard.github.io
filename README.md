@@ -8,22 +8,6 @@
 	<META NAME="CREATED" CONTENT="20160524;12023642">
 	<META NAME="CHANGEDBY" CONTENT="m&eacute;lissa ">
 	<META NAME="CHANGED" CONTENT="20160524;13315924">
-	<STYLE TYPE="text/css">
-	<!--
-		@page { margin-left: 2cm; margin-right: 2cm; margin-top: 1.27cm; margin-bottom: 1.27cm }
-		P { margin-bottom: 0.21cm }
-		H1 { margin-bottom: 0.21cm }
-		H1.western { font-family: "Arial", sans-serif; font-size: 14pt }
-		H1.cjk { font-family: "Microsoft YaHei"; font-size: 14pt }
-		H1.ctl { font-family: "Arial Unicode MS"; font-size: 14pt }
-		P.sdfootnote { margin-left: 0.5cm; text-indent: -0.5cm; margin-bottom: 0cm; font-size: 10pt }
-		H2 { margin-bottom: 0.21cm }
-		H2.western { font-family: "Arial", sans-serif; font-size: 14pt; font-style: italic }
-		H2.cjk { font-family: "Microsoft YaHei"; font-size: 14pt; font-style: italic }
-		H2.ctl { font-family: "Arial Unicode MS"; font-size: 14pt; font-style: italic }
-		A.sdfootnoteanc { font-size: 57% }
-	-->
-	</STYLE>
 </HEAD>
 <BODY LANG="fr-FR" DIR="LTR">
 <DIV TYPE=HEADER>
