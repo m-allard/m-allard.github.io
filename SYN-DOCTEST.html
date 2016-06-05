@@ -1,0 +1,45 @@
+<html i18n-values="dir:textdirection;lang:language" dir="ltr" lang="fr" i18n-processed=""><head>
+  <base href="chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/">
+  <meta charset="utf-8">
+  <!-- Must be before any other scripts or Polymer imports. -->
+  <script src="chrome://resources/js/polymer_config.js"></script>
+  <link rel="import" href="elements/viewer-error-screen/viewer-error-screen.html">
+  <link rel="import" href="elements/viewer-page-indicator/viewer-page-indicator.html">
+  <link rel="import" href="elements/viewer-page-selector/viewer-page-selector.html">
+  <link rel="import" href="elements/viewer-password-screen/viewer-password-screen.html">
+  <link rel="import" href="elements/viewer-pdf-toolbar/viewer-pdf-toolbar.html">
+  <link rel="import" href="elements/viewer-zoom-toolbar/viewer-zoom-toolbar.html">
+
+  <link rel="stylesheet" href="chrome://resources/css/text_defaults.css">
+  <link rel="stylesheet" href="chrome://resources/css/roboto.css">
+  <link rel="stylesheet" href="index.css">
+<title>SYNTHESE-DOCUMENTAIRE-PARTIE-1.pdf</title></head>
+<body>
+
+<viewer-pdf-toolbar id="toolbar" style="transform-origin: 50% 0px 0px; transform: none;"></viewer-pdf-toolbar>
+
+<div id="sizer" style="width: 803px; height: 5732px;"></div>
+<viewer-password-screen id="password-screen"></viewer-password-screen>
+
+<viewer-zoom-toolbar id="zoom-toolbar" style="right: -8.5px; bottom: 0px;"></viewer-zoom-toolbar>
+
+<viewer-page-indicator id="page-indicator"></viewer-page-indicator>
+
+<viewer-error-screen id="error-screen"></viewer-error-screen>
+
+
+<script src="toolbar_manager.js"></script>
+<script src="viewport.js"></script>
+<script src="open_pdf_params_parser.js"></script>
+<script src="navigator.js"></script>
+<script src="viewport_scroller.js"></script>
+<script src="zoom_manager.js"></script>
+<script src="pdf_scripting_api.js"></script>
+<script src="chrome://resources/js/i18n_template_no_process.js"></script>
+<script src="chrome://resources/js/load_time_data.js"></script>
+<script src="chrome://resources/js/util.js"></script>
+<script src="browser_api.js"></script>
+<script src="pdf.js"></script>
+<script src="main.js"></script>
+
+<embed id="plugin" type="application/x-google-chrome-pdf" src="file:///C:/Users/barbiedemontr%C3%A9sor/Downloads/SYNTHESE-DOCUMENTAIRE-PARTIE-1.pdf" stream-url="blob:chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/50CCC41B-9C40-48BA-8163-1B23257A45AF" headers="" background-color="0xFF525659" top-toolbar-height="56" full-frame=""></body></html>
