@@ -1,3 +1,5 @@
+
+
 body{
 	background-color:rgb(179, 204, 255);
 }
@@ -10,6 +12,14 @@ body{
 	font-weight:bold;
 }
 
+#titreImp{
+	text-align:center;
+	color:white;
+	text-shadow: 2px 2px 2px rgb(0,0,255);
+	font-size:58px;
+	border:none;
+}
+
 .sousTitre{
 	transition: 2s transform, 2s color;
 }
@@ -18,3 +28,46 @@ body{
 	color: blue;
 	transform: translate(100px,0);
 	}
+	
+	
+#pageAccueil{
+	background: url("wallpaper.jpg") no-repeat;
+	background-size: cover;
+}
+
+#cadre{
+	background-color:rgba(200,200,200,0.4);
+	margin-left:25%;
+	margin-right:25%;
+	
+}
+
+
+#realise{
+	color:white;
+	text-shadow: 2px 2px 2px rgb(0,0,255);
+	font-size:20px;
+	text-align:center;
+	margin-top:-2%;
+}
+
+#link{
+	text-align:center;
+	transition: 1s transform;
+
+}
+
+.lien{
+	
+	transition: 2.5s color, 0.5s text-shadow;
+	text-decoration:none;
+	font-size:40px;
+	color:white;
+	
+}
+
+.lien:hover{
+	color:red;
+ 	text-shadow: 7px 7px 7px rgb(0,0,255);
+}
+
